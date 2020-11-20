@@ -1,0 +1,20 @@
+- double the calendar: bug-duplicate calendar on content- "bug1pravda"
+- Summary: when you enter the main menu, you first see one calendar, and then another, the same
+- Steps to reproduce: you open content and you see that bug
+- Expected result: "no need to duplicate the calendar"
+- Environment: PROODUCTION
+
+- double the menu: Bug-duplicate menu on content"bug2pravda"
+- Summary: "when you go to any section, then immediately after the section name, the entire list is duplicated, as in the main menu"
+- Steps to reproduce: you open content and you see that bug
+- Expected result: "no need to duplicate the same functionality"
+- Environment: PROODUCTION
+
+- the menu: Bug-scroll menu on content"bug3pravda"
+- Summary: "when you scroll down you can see the main menu,when you scroll up you can't see the main menu"
+- Steps to reproduce: you open content and you see that bug
+- Expected result: you don't have opportunites to see manu for navigation
+- Environment: PROODUCTION
+
+
+

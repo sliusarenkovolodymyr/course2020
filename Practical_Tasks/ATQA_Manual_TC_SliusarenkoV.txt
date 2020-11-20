@@ -1,0 +1,12 @@
+UserCase
+1the user wants to read specific news
+2the user can watch video news
+3the user can look at the content contacts
+4the user has the opportunity to order advertising
+5the user can open the content in the facebook application
+TestCase
+1the user must open the content
+2the user clicks on a specific section
+3the user must find specific news in the calendar by date
+4the user sees if news and content are available
+5the user shares/likes and writes a comment after

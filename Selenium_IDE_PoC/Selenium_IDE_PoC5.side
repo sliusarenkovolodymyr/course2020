@@ -1,0 +1,302 @@
+{
+  "id": "b22be1f1-a971-4f42-9f79-cd019b50ec46",
+  "version": "2.0",
+  "name": "Selenium_IDE_PoC",
+  "url": "https://www.ebay.com/",
+  "tests": [{
+    "id": "ea6bde2a-567a-4db3-95ca-975a9cd76d29",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "68e6a1bc-2f68-405d-88c9-13fee04ab8a6",
+    "name": "Test1",
+    "commands": [{
+      "id": "e3957db3-a866-4f5e-a2e1-85cc023fe8ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98fd7df5-e3e8-4769-be35-04bbb3c97e25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abb463cf-8038-4ad7-8958-b03a9766f6f2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f36720e-9c7e-40b7-bd9f-f68d49930311",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ebb44f3-86dc-41fd-a965-ed69ea533c71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinations_list2 .hl-popular-destinations-element:nth-child(1) .hl-popular-destinations-name",
+      "targets": [
+        ["css=#destinations_list2 .hl-popular-destinations-element:nth-child(1) .hl-popular-destinations-name", "css:finder"],
+        ["xpath=//div[@id='destinations_list2']/ul/li/a/h3", "xpath:idRelative"],
+        ["xpath=//div[8]/ul/li/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b4a607e-ede5-4021-8985-d1ba35e0db83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-visualnav__tile:nth-child(1) > .b-visualnav__title",
+      "targets": [
+        ["css=.b-visualnav__tile:nth-child(1) > .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e3143e-19c3-465f-b342-9c01514fb7f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(1) .s-item__title",
+      "targets": [
+        ["css=.s-item:nth-child(1) .s-item__title", "css:finder"],
+        ["xpath=//section[@id='s0-26_2-9-0-1[0]-0-1']/ul/li/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple iPhone 11 64GB 4G LTE GSM ( T-Mobile/ Mint/ Ultra/ Metro) Smartphone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19c22907-b2d5-485f-bebb-62b40af01511",
+    "name": "Test2",
+    "commands": [{
+      "id": "9b22018e-6d9e-43d4-b79d-92ccc3318cb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75c37a8-a201-4753-9a5a-27661d0765de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ad5b4c7-a975-4928-a63b-34c4fb142c6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinations_list1 .hl-popular-destinations-element:nth-child(2) .hl-popular-destinations-name",
+      "targets": [
+        ["css=#destinations_list1 .hl-popular-destinations-element:nth-child(2) .hl-popular-destinations-name", "css:finder"],
+        ["xpath=//div[@id='destinations_list1']/ul/li[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Sneakers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb091a5f-7666-41e0-911d-d4b05badd5ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-module:nth-child(8) .b-visualnav__tile:nth-child(5) > .b-visualnav__title",
+      "targets": [
+        ["css=.b-module:nth-child(8) .b-visualnav__tile:nth-child(5) > .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section[2]/div[2]/a[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/a[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f83746-e1fc-4f45-8eee-8ff28dc08764",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(6) .s-item__title",
+      "targets": [
+        ["css=.s-item:nth-child(6) .s-item__title", "css:finder"],
+        ["xpath=//div[@id='srp-river-results']/ul/li[4]/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Jordan 6 Travis Scott UK10.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7529f00-d5ef-4c0a-bc3b-d30eafef2b50",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,110.4000015258789)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ebe1f22d-009c-481b-b7da-d16c18d7c68a",
+    "name": "Test3",
+    "commands": [{
+      "id": "ab473667-3d52-4839-afd4-3e78d1ab5329",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19283535-dcd4-4257-aefb-2f27abcd14b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd5128e2-91fe-4696-b8b9-bfb83e7563dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinations_list1 .hl-popular-destinations-element:nth-child(8) .hl-popular-destinations-name",
+      "targets": [
+        ["css=#destinations_list1 .hl-popular-destinations-element:nth-child(8) .hl-popular-destinations-name", "css:finder"],
+        ["xpath=//div[@id='destinations_list1']/ul/li[8]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[8]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff78a56-cc8c-4558-88e0-5afc7e3ce1ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-visualnav__tile:nth-child(1) > .b-visualnav__title",
+      "targets": [
+        ["css=.b-visualnav__tile:nth-child(1) > .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e1d65d-787a-498a-8cd0-ca0427fd3504",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(1) .s-item__title",
+      "targets": [
+        ["css=.s-item:nth-child(1) .s-item__title", "css:finder"],
+        ["xpath=//section[@id='s0-26_3-9-0-1[0]-0-1']/ul/li/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'NEW Samsung Galaxy A10 2019 A10S 32GB Dual SIM 4G LTE Android phone 4 COLOURS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "970d2fe6-5987-49b2-b5a1-af783d69b21f",
+    "name": "Test4",
+    "commands": [{
+      "id": "061db1d3-a9a6-40d3-924f-8a24d7adbcc3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23bd8eba-91df-4aaa-b52a-77456e158b7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83cd4269-a4da-4be2-ab3d-7fa8eca56172",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinations_list1 .hl-popular-destinations-element:nth-child(6) .hl-popular-destinations-name",
+      "targets": [
+        ["css=#destinations_list1 .hl-popular-destinations-element:nth-child(6) .hl-popular-destinations-name", "css:finder"],
+        ["xpath=//div[@id='destinations_list1']/ul/li[6]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[6]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Fishing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b51ad31-ba8d-485f-b143-faed0b91d191",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-visualnav__tile:nth-child(9) > .b-visualnav__title",
+      "targets": [
+        ["css=.b-visualnav__tile:nth-child(9) > .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/div[2]/a[9]/div[2]", "xpath:idRelative"],
+        ["xpath=//a[9]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2df66a-6cb7-433b-9c38-2b9188fac866",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(1) .s-item__title",
+      "targets": [
+        ["css=.s-item:nth-child(1) .s-item__title", "css:finder"],
+        ["xpath=//section[@id='s0-26_3-9-0-1[0]-0-1']/ul/li/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Bassdash Versatile V1 Men’s Fishing Vest with Mesh Back Utility Vest for Fishing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0a7081be-78c7-4f5b-a23e-050a9cd5aa42",
+    "name": "Test5",
+    "commands": [{
+      "id": "9b0ce7d7-e1c0-4f7f-8deb-7621a47c5212",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b84f9ac-8a8e-421d-9cde-1ef2aabbe844",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "403f0607-b30a-41be-b26c-921f35e71afa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1001.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fc9092c-4d55-4fe3-b00b-57cb75279641",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinations_list1 .hl-popular-destinations-element:nth-child(4) .hl-popular-destinations-name",
+      "targets": [
+        ["css=#destinations_list1 .hl-popular-destinations-element:nth-child(4) .hl-popular-destinations-name", "css:finder"],
+        ["xpath=//div[@id='destinations_list1']/ul/li[4]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Wristwatches')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37381e8-5e92-498b-90f8-0a5dc6732f0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > .b-tile .b-info__title",
+      "targets": [
+        ["css=li:nth-child(8) > .b-tile .b-info__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/ul/li[8]/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[8]/a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ba05579c-414d-4502-ad87-f4115c717fcb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ea6bde2a-567a-4db3-95ca-975a9cd76d29"]
+  }],
+  "urls": ["https://www.ebay.com/"],
+  "plugins": []
+}

@@ -1,0 +1,10 @@
+TestCase
+1the user must open the content/select section Apple/click on the iPhone section and selects 11 iPhones and than choose the phone
+2the user must open the content/select section Sneakers/click on the travis scott jordan and choose Shoes
+3the user must open the content/select section Smartphones/click on Cell Phones & Smartphones and selects Samsung Galaxy A10
+4the user must open the content/select section Fishing/click on Fishing Clothing, Shoes & Accessories,than choose Fishing Vest
+5the user must open the content/select section Wristwatches/click Bulova Watches and choose Watches
+
+
+
+
